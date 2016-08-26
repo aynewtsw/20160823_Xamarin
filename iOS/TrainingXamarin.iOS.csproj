@@ -91,7 +91,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +123,27 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="MyMapViewController.cs" />
+    <Compile Include="MyMapViewController.designer.cs">
+      <DependentUpon>MyMapViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyWebViewController.cs" />
+    <Compile Include="MyWebViewController.designer.cs">
+      <DependentUpon>MyWebViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyValueManager.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLiteWorker.cs" />
+    <Compile Include="MyTableViewController.cs" />
+    <Compile Include="MyTableViewController.designer.cs">
+      <DependentUpon>MyTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTableViewCell.cs" />
+    <Compile Include="MyTableViewCell.designer.cs">
+      <DependentUpon>MyTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Todo.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">

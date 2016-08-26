@@ -7,17 +7,16 @@ namespace TrainingXamarin.iOS
 {
 	public partial class MyTableViewCell : UITableViewCell
 	{
-		public static readonly NSString Key = new NSString("MyTableViewCell");
-		public static readonly UINib Nib;
-
-		static MyTableViewCell()
-		{
-			Nib = UINib.FromName("MyTableViewCell", NSBundle.MainBundle);
-		}
 
 		protected MyTableViewCell(IntPtr handle) : base(handle)
 		{
 			// Note: this .ctor should not contain any initialization logic.
+		}
+
+		public void UpdaeUI(Todo todo)
+		{
+			lblName.Text = todo.Name;
+			lblDesc.Text = todo.Desc;
 		}
 	}
 }

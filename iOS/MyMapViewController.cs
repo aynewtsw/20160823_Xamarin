@@ -6,7 +6,8 @@ namespace TrainingXamarin.iOS
 {
 	public partial class MyMapViewController : UIViewController
 	{
-		public MyMapViewController() : base("MyMapViewController", null)
+		public string TitleString { get; set;}
+		public MyMapViewController(IntPtr handle) : base(handle)
 		{
 		}
 
@@ -14,6 +15,7 @@ namespace TrainingXamarin.iOS
 		{
 			base.ViewDidLoad();
 			// Perform any additional setup after loading the view, typically from a nib.
+			Title = TitleString;
 		}
 
 		public override void DidReceiveMemoryWarning()

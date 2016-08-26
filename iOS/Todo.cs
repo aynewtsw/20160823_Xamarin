@@ -1,11 +1,9 @@
-﻿using System;
-namespace TrainingXamarin.iOS
+﻿namespace TrainingXamarin.iOS
 {
 	public class Todo
 	{
-		public Todo()
-		{
-		}
+		public string Name { get; set; }
+		public string Desc { get; set; }
 	}
 }
 
