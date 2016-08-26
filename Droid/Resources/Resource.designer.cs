@@ -154,23 +154,35 @@ namespace TrainingXamarin.Droid
 			// aapt resource value: 0x7f060005
 			public const int main_menuview_btnMap = 2131099653;
 			
+			// aapt resource value: 0x7f060007
+			public const int main_menuview_btnTable = 2131099655;
+			
 			// aapt resource value: 0x7f060006
 			public const int main_menuview_btnWeb = 2131099654;
 			
 			// aapt resource value: 0x7f060004
 			public const int myButton = 2131099652;
 			
+			// aapt resource value: 0x7f06000a
+			public const int table_mylistview_itemview_lblDesc = 2131099658;
+			
+			// aapt resource value: 0x7f060009
+			public const int table_mylistview_itemview_lblName = 2131099657;
+			
+			// aapt resource value: 0x7f060008
+			public const int table_mylistview_listview = 2131099656;
+			
 			// aapt resource value: 0x7f060001
 			public const int textViewStatus = 2131099649;
 			
-			// aapt resource value: 0x7f060009
-			public const int web_mywebview_WebView = 2131099657;
+			// aapt resource value: 0x7f06000d
+			public const int web_mywebview_WebView = 2131099661;
 			
-			// aapt resource value: 0x7f060007
-			public const int web_mywebview_btnGo = 2131099655;
+			// aapt resource value: 0x7f06000b
+			public const int web_mywebview_btnGo = 2131099659;
 			
-			// aapt resource value: 0x7f060008
-			public const int web_mywebview_txtUrl = 2131099656;
+			// aapt resource value: 0x7f06000c
+			public const int web_mywebview_txtUrl = 2131099660;
 			
 			static Id()
 			{
@@ -204,7 +216,13 @@ namespace TrainingXamarin.Droid
 			public const int main_menuview = 2130968581;
 			
 			// aapt resource value: 0x7f040006
-			public const int web_mywebview = 2130968582;
+			public const int table_mylistview = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int table_mylistview_itemview = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int web_mywebview = 2130968584;
 			
 			static Layout()
 			{

@@ -1,4 +1,4 @@
-﻿namespace TrainingXamarin.iOS
+﻿namespace TrainingXamarin
 {
 	public class Todo
 	{

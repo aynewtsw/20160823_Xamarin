@@ -143,7 +143,6 @@
     <Compile Include="MyTableViewCell.designer.cs">
       <DependentUpon>MyTableViewCell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Todo.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">

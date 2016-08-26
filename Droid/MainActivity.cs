@@ -33,6 +33,13 @@ namespace TrainingXamarin.Droid
 				 //webActivity.PutExtra("url", "https://www.google.com.tw");
 				 StartActivity(webActivity);
 			};
+
+			Button btnTable = FindViewById<Button>(Resource.Id.main_menuview_btnTable);
+
+			btnTable.Click += (sender, e) =>
+			{
+				StartActivity(typeof(MyListActivity));
+			};
 		}
 	}
 }
