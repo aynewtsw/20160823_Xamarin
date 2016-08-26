@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="74dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:id="@+id/table_mylistview_itemview_lblName"
+        android:text="Name"
+        android:textSize="28dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:id="@+id/table_mylistview_itemview_lblDesc"
+        android:text="Desc"
+        android:textSize="17dp"
+        />
+</RelativeLayout>
